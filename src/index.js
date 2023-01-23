@@ -89,9 +89,9 @@ class Game extends React.Component {
                 'Revenir au tour n°' + move :
                 'Revenir au début de la partie';
             return (
-                <li key={move}>
+                <p key={move}>
                     <button onClick={() => this.jumpTo(move)}>{desc}</button>
-                </li>
+                </p>
             );
         });
 
@@ -112,7 +112,7 @@ class Game extends React.Component {
                 </div>
                 <div className="game-info">
                     <div>{status}</div>
-                    <ol>{moves}</ol>
+                    <p>{moves}</p>
                 </div>
             </div>
         );
