@@ -48,10 +48,23 @@ ol, ul {
 .game-info {
     margin-left: 20px;
 }
-p button{
+li button{
     border: none;
     padding: 10px;
     background-color: crimson;
     color: white;
     width: 100%;
+}
+
+.game-info div{
+    font-size: 25px;
+    color: green;
+}
+
+.game-board{
+    margin-top: 65px;
+}
+
+li{
+    list-style: none;
 }
